@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | GitHub user search app</title>
+</head>
+<body>
+  
+  <main class="wrapper">
+
+    <section class="heading">
+      <p class="app-name">devfinder</p>
+      <div class="theme-mode-switcher">
+        <p class="theme-mode-name">Light</p>
+        <img class="theme-mode-icon" src="assets/icon-sun.svg"></img>
+      </div>
+    </section>
+
+    <form class="search-form" action="#">
+      <label for="search" class="sr-only">Search user:</label>
+      <div class="search-bar">
+        <input class="search-input" type="text" id="search" placeholder="Search Github username…">
+        <div class="search-feedback">
+          <p class="no-results-message hidden">No results</p>
+          <button class="search-btn">Search</button>
+        </div>
+      </div>
+    </form>
+
+    <section class="search-result-card">
+      <article class="profile">
+        <img class="profile-picture" src="assets/startuppic.jpg"></img>
+        <div class="main-info">
+          <h1 class="display-username">The Octocat</h1>
+          <h3 class="account-username">@octocat</h3>
+          <p class="join-date-mobile-tablet hide-desktop">Joined 25 Jan 2011</p>
+          <p class="bio-desktop not-available">This profile has no bio</p>
+        </div>
+        <p class="join-date-desktop">Joined 25 Jan 2011</p>
+      </article>
+      <article class="profile-description">
+        <h2 class="bio-mobile-tablet hide-desktop">This profile has no bio</h2>
+      </article>
+      <article class="profile-socials">
+        <div>
+          <h4 class="socials-title">Repos</h4>
+          <p class="repos-amount amount">8</p>
+        </div>
+        <div>
+          <h4 class="socials-title">Followers</h4>
+          <p class="followers-amount amount">3938</p>
+        </div>
+        <div>
+          <h4 class="socials-title">Following</h4>
+          <p class="following-amount amount">9</p>
+        </div>
+      </article>
+        <article class="profile-detail">
+          <div class="profile-detail-element">
+            <img class="location-icon" src="assets/icon-location.svg" alt=""><p class="location">San Francisco</p>
+          </div>
+          <div class="profile-detail-element">
+            <img class="website-icon" src="assets/icon-website.svg" alt=""><a href="" target="blank" class="website">https://github.blog</a>
+          </div>
+          <div class="profile-detail-element swappable not-available">
+            <img class="twitter-icon" src="assets/icon-twitter.svg" alt=""><p class="twitter">Not Available</p>
+          </div>
+          <div class="profile-detail-element">
+            <img class="company-icon" src="assets/icon-company.svg" alt=""><p class="company">@github</p>
+          </div>
+        </article>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
