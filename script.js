@@ -135,6 +135,7 @@ function notAvailableSocials(userInfoSocial){
 
 
 function fetchApi(){
+    event.preventDefault();
     if(searchInput.value){
         const usernameInput = searchInput.value; 
         const apiUrl = `https://api.github.com/users/${usernameInput}`;
