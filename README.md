@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-[(https://github-user-search-app-blue.vercel.app/)]((https://github-user-search-app-blue.vercel.app/))
+[https://github-user-search-app-blue.vercel.app/](https://github-user-search-app-blue.vercel.app/)
 
 ## Built with
 
