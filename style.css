@@ -497,10 +497,6 @@ form{
     .app-name{
         color: var(--white-clr)
     }
-    
-    .no-results-message{
-        background-color: var(--navy-blue-clr);
-    }
 
     @media screen and (min-width: 628px){
         .search-input,
