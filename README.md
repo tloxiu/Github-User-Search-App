@@ -1,6 +1,6 @@
 # Frontend Mentor - GitHub user search app solution
 
-This is a solution to the [GitHub user search app challenge on Frontend Mentor]
+This is a solution to the GitHub user search app challenge on Frontend Mentor
 
 
 ## Overview
