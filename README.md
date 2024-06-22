@@ -31,7 +31,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-## Author
-
-- Frontend Mentor - [@tloxiu](https://www.frontendmentor.io/profile/tloxiu)
